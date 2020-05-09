@@ -19,7 +19,7 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
+determined-wheels/
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+checkpoints/
+output.png
+test.jpg
