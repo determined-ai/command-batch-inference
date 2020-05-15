@@ -4,3 +4,5 @@ numpy
 torch
 torchvision
 pillow
+determined-cli>=0.12.4
+determined>=0.12.4

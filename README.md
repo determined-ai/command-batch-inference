@@ -9,9 +9,6 @@ det e create model/train.yaml model
 
 ## Running batch inference locally
 ```commandline
-pip install determined-wheels/determined_common-0.12.4.dev0-py3-none-any.whl
-pip install determined-wheels/determined-0.12.4.dev0-py3-none-any.whl
-pip install determined-wheels/determined_cli-0.12.4.dev0-py3-none-any.whl
 pip install -r requirements.txt
 
 python batch.py --master-url <master-url> --experiment-id <experiment-id> --input-path <s3-path-to-input-file> --cpu
